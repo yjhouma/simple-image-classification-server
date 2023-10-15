@@ -9,7 +9,9 @@ Note: The ipynb file is me testing sample code before using it in main.py
 pip install -r requirments.txt
 ```
 
-```uvicorn main:app --host 0.0.0.0 --reload```
+```
+uvicorn main:app --host 0.0.0.0 --reload
+```
 
 you can try out the api by accessing
 ```http://0.0.0.0:8000/docs```
