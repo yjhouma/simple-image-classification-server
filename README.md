@@ -5,7 +5,8 @@ This simple python app contains one predict api where the input is an image file
 Note: The ipynb file is me testing sample code before using it in main.py
 
 ## Running the app
-```pip install -r requirments.txt
+```
+pip install -r requirments.txt
 ```
 
 ```uvicorn main:app --host 0.0.0.0 --reload```
